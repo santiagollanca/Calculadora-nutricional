@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Calculadora nutricional</title>
+<link rel="stylesheet" href="comida.css">
+</head>
+
+<body>
+
+  <header>
+    <a href="file:///C:/Users/German/Desktop/Santiago/Pasantia/Pagina%201.html" class="logo">
+      <img src="C:\Users\German\Desktop\Santiago\Pasantia\logo.png">
+      <h2 class="nombre_empresa">Calculadora Nutricional</h2>
+    </a>
+    <nav>
+      <a href="" class="nav-link">Inicio</a>
+      <a href="" class="nav-link">Sobre nosotros</a>
+      <a href="" class="nav-link">Contacto</a>
+    </nav>
+  </header>
+
+<div style="text-align: center;">
+<h1>Menu</h1>
+</div>
+
+<div class="productos">
+<table class="tablacomida">
+  <tr>
+    <th colspan="3">Con nuestra nutricalculadora podrás salir de dudas en un momento, basta con que introduzcas los alimentos que vas a comer:</th>
+  </tr>
+    <td>
+      <p>Elije un plato principal:</p>
+      <form>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\milanesa.jpg" class="img_producto"><br><input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">milanesa</label></button><br>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\carne.jpg" class="img_producto"><br><input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">carne</label></button><br>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\pollo.jpg" class="img_producto"><br><input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">pollo</label></button><br>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\pizza.jpg" class="img_producto"><br><input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">pizza</label></button><br>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\pescado.jpg" class="img_producto"><br><input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">pescado</label></button>
+      </form>      
+    </td>
+    <td>
+      <p>Elige una guarnicion:</p>
+      <form>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\papas.jpg" class="img_producto"><br><input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">papas</label></button><br>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\arroz.jpg" class="img_producto"><br><input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">arroz</label></button><br>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\fideos.jpg" class="img_producto"><br><input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">fideos</label></button><br>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\ensalada.jpg" class="img_producto"><br><input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">ensalada</label></button><br>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\pure.jpg" class="img_producto"><br><input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">pure</label></button>
+        </form>
+    </td>
+    <td>
+      <p>Elige una bebida:</p>
+      <form>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\agua.jpg" class="img_producto"><br><input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">agua</label></button><br>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\vino.jpg" class="img_producto"><br><input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">vino</label></button><br>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\jugo.jpg" class="img_producto"><br><input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">jugo</label></button><br>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\cerveza.jpeg" class="img_producto"><br><input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">cerveza</label></button><br>
+        <button type="button" class="boton_comida">
+        <img src="C:\Users\German\Desktop\Santiago\Pasantia\gaseosa.jpg" class="img_producto"><br><input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">gaseosa</label></button>
+      </form>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>Cantidad en (g): <input type="number"></p>
+    </td>
+    <td>
+      <p>Cantidad en (g): <input type="number"></p>
+    </td>
+    <td>
+      <p>Cantidad en (ml):<input type="number"></p>
+    </td>
+  </tr>
+</table>
+</div>
+
+<div class="calculadora">
+  <table>
+    <tr>
+      <th>CALORIAS</th>
+      <th>PROTEINAS</th>
+      <th>GRASA</th>
+      <th>CARBOHIDRATOS</th>
+      <th>FIBRA</th>
+      <th>COLESTEROL</th>
+    </tr>
+    <tr>
+      <td><button type="button" class="boton_resultado"><p>0 Kcal</p></button></td>
+      <td><button type="button" class="boton_resultado"><p>0 g</p></td>
+      <td><button type="button" class="boton_resultado"><p>0 g</p></td>
+      <td><button type="button" class="boton_resultado"><p>0 g</p></td>
+      <td><button type="button" class="boton_resultado"><p>0 g</p></td>
+      <td><button type="button" class="boton_resultado"><p>0 mg</p></td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
