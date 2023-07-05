@@ -54,19 +54,19 @@
       <p>Elige una guarnicion:</p>
       <form>
         <button type="button" class="boton_comida">
-        <img src="imagenes/papas.jpg" class="img_producto"><br><input type="radio" id="guarnicion" name="fav_language" value="papas">
+        <img src="imagenes/papas.jpg" class="img_producto"><br><input type="radio" id="guarnicion" name="guarnicion" value="papas">
         <label for="html">PAPAS</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/arroz.jpg" class="img_producto"><br><input type="radio" id="guarnicion" name="fav_language" value="arroz">
+        <img src="imagenes/arroz.jpg" class="img_producto"><br><input type="radio" id="guarnicion2" name="guarnicion" value="arroz">
         <label for="css">ARROZ</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/fideos.jpg" class="img_producto"><br><input type="radio" id="guarnicion" name="fav_language" value="fideos">
+        <img src="imagenes/fideos.jpg" class="img_producto"><br><input type="radio" id="guarnicion3" name="guarnicion" value="fideos">
         <label for="css">FIDEOS</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/ensalada.jpg" class="img_producto"><br><input type="radio" id="guarnicion" name="fav_language" value="ensalada">
+        <img src="imagenes/ensalada.jpg" class="img_producto"><br><input type="radio" id="guarnicion4" name="guarnicion" value="ensalada">
         <label for="html">ENSALADA</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/pure.jpg" class="img_producto"><br><input type="radio" id="guarnicion" name="fav_language" value="pure">
+        <img src="imagenes/pure.jpg" class="img_producto"><br><input type="radio" id="guarnicion5" name="guarnicion" value="pure">
         <label for="javascript">PURE</label></button>
         </form>
     </td>
@@ -74,32 +74,37 @@
       <p>Elige una bebida:</p>
       <form>
         <button type="button" class="boton_comida">
-        <img src="imagenes/agua.jpg" class="img_producto"><br><input type="radio" id="bebida" name="fav_language" value="agua">
+        <img src="imagenes/agua.jpg" class="img_producto"><br><input type="radio" id="bebida" name="bebida" value="agua"
+          onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="html">AGUA</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/vino.jpg" class="img_producto"><br><input type="radio" id="bebida" name="fav_language" value="vino">
+        <img src="imagenes/vino.jpg" class="img_producto"><br><input type="radio" id="bebida2" name="bebida" value="vino"
+          onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="html">VINO</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/jugo.jpg" class="img_producto"><br><input type="radio" id="bebida" name="fav_language" value="jugo">
+        <img src="imagenes/jugo.jpg" class="img_producto"><br><input type="radio" id="bebida3" name="bebida" value="jugo"
+          onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="css">JUGO</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/cerveza.jpeg" class="img_producto"><br><input type="radio" id="bebida" name="fav_language" value="cerveza">
+        <img src="imagenes/cerveza.jpeg" class="img_producto"><br><input type="radio" id="bebida4" name="bebida" value="cerveza"
+          onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="html">CERVEZA</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/gaseosa.jpg" class="img_producto"><br><input type="radio" id="bebida" name="fav_language" value="gaseosa">
+        <img src="imagenes/gaseosa.jpg" class="img_producto"><br><input type="radio" id="bebida5" name="bebida" value="gaseosa"
+          onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="javascript">GASEOSA</label></button>
       </form>
     </td>
   </tr>
   <tr>
     <td>
-      <p>Cantidad en (g): <input type="number" id="calorias" onchange="contador()"></p>
+      <p>Cantidad en (g): <input type="number" id="calorias" onchange="contador(this.value)"></p>
     </td>
     <td>
-      <p>Cantidad en (g): <input type="number" id="calorias2" onchange="contador()"></p>
+      <p>Cantidad en (g): <input type="number" id="calorias2" onchange="contador(this.value)"></p>
     </td>
     <td>
-      <p>Cantidad en (ml):<input type="number" id="calorias3" onchange="contador()"></p>
+      <p>Cantidad en (ml):<input type="number" id="calorias3" onchange="contador(this.value)"></p>
     </td>
   </tr>
 </table>

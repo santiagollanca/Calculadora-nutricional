@@ -1,9 +1,8 @@
-let contador = () =>{
-    let cantidad1 = document.getElementById("calorias").value
-    console.log(cantidad1)
-} 
+let contador = (valor) =>{
+    //let cantidad1 = this.value
+    console.log(valor)
+}
 
-let comida = () =>{
-    let bebida1 = document.getElementsById("bebida").name
-    console.log(bebida1)
+let sumarcomida = (id, name, valor) =>{
+    console.log(id, name, valor)
 }
