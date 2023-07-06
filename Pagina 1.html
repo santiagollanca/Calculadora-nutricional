@@ -33,24 +33,24 @@
     <td>
       <p>Elije un plato principal:</p>
       <form>
-        <button type="button" class="boton_comida">
+        <button type="button" class="boton_comida" id="botonmilanesa">
         <img src="imagenes/milanesa.jpg" class="img_producto"><br><input type="radio" id="principal" name="principal" value="milanesa"
         onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="html">MILANESA</label></button><br>
-        <button type="button" class="boton_comida">
+        <button type="button" class="boton_comida" id="botoncarne">
         <img src="imagenes/carne.jpg" class="img_producto"><br><input type="radio" id="principal" name="principal" value="carne"
         onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="html">CARNE</label></button><br>
-        <button type="button" class="boton_comida">
+        <button type="button" class="boton_comida" id="botonpollo">
         <img src="imagenes/pollo.jpg" class="img_producto"><br><input type="radio" id="principal" name="principal" value="pollo"
         onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="css">POLLO</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/pizza.jpg" class="img_producto"><br><input type="radio" id="principal" name="principal" value="pizza"
+        <img src="imagenes/pizza.jpg" class="img_producto" id="botonpizza"><br><input type="radio" id="principal" name="principal" value="pizza"
         onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="html">PIZZA</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/pescado.jpg" class="img_producto"><br><input type="radio" id="principal" name="principal" value="pescado"
+        <img src="imagenes/pescado.jpg" class="img_producto" id="botonpescado"><br><input type="radio" id="principal" name="principal" value="pescado"
         onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="javascript">PESCADO</label></button>
       </form>      
@@ -59,23 +59,23 @@
       <p>Elige una guarnicion:</p>
       <form>
         <button type="button" class="boton_comida">
-        <img src="imagenes/papas.jpg" class="img_producto"><br><input type="radio" id="guarnicion" name="guarnicion" value="papas"
+        <img src="imagenes/papas.jpg" class="img_producto" id="botonpapas"><br><input type="radio" id="guarnicion" name="guarnicion" value="papas"
         onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="html">PAPAS</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/arroz.jpg" class="img_producto"><br><input type="radio" id="guarnicion2" name="guarnicion" value="arroz"
+        <img src="imagenes/arroz.jpg" class="img_producto" id="botonarroz"><br><input type="radio" id="guarnicion2" name="guarnicion" value="arroz"
         onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="css">ARROZ</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/fideos.jpg" class="img_producto"><br><input type="radio" id="guarnicion3" name="guarnicion" value="fideos"
+        <img src="imagenes/fideos.jpg" class="img_producto" id="botonfideos"><br><input type="radio" id="guarnicion3" name="guarnicion" value="fideos"
         onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="css">FIDEOS</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/ensalada.jpg" class="img_producto"><br><input type="radio" id="guarnicion4" name="guarnicion" value="ensalada"
+        <img src="imagenes/ensalada.jpg" class="img_producto" id="botonensalada"><br><input type="radio" id="guarnicion4" name="guarnicion" value="ensalada"
         onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="html">ENSALADA</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/pure.jpg" class="img_producto"><br><input type="radio" id="guarnicion5" name="guarnicion" value="pure"
+        <img src="imagenes/pure.jpg" class="img_producto" id="botonpure"><br><input type="radio" id="guarnicion5" name="guarnicion" value="pure"
         onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="javascript">PURE</label></button>
         </form>
@@ -84,23 +84,23 @@
       <p>Elige una bebida:</p>
       <form>
         <button type="button" class="boton_comida">
-        <img src="imagenes/agua.jpg" class="img_producto"><br><input type="radio" id="bebida" name="bebida" value="agua"
+        <img src="imagenes/agua.jpg" class="img_producto" id="botonagua"><br><input type="radio" id="bebida" name="bebida" value="agua"
           onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="html">AGUA</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/vino.jpg" class="img_producto"><br><input type="radio" id="bebida2" name="bebida" value="vino"
+        <img src="imagenes/vino.jpg" class="img_producto" id="botonvino"><br><input type="radio" id="bebida2" name="bebida" value="vino"
           onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="html">VINO</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/jugo.jpg" class="img_producto"><br><input type="radio" id="bebida3" name="bebida" value="jugo"
+        <img src="imagenes/jugo.jpg" class="img_producto" id="botonjugo"><br><input type="radio" id="bebida3" name="bebida" value="jugo"
           onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="css">JUGO</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/cerveza.jpeg" class="img_producto"><br><input type="radio" id="bebida4" name="bebida" value="cerveza"
+        <img src="imagenes/cerveza.jpeg" class="img_producto" id="botoncerveza"><br><input type="radio" id="bebida4" name="bebida" value="cerveza"
           onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="html">CERVEZA</label></button><br>
         <button type="button" class="boton_comida">
-        <img src="imagenes/gaseosa.jpg" class="img_producto"><br><input type="radio" id="bebida5" name="bebida" value="gaseosa"
+        <img src="imagenes/gaseosa.jpg" class="img_producto" id="botongaseosa"><br><input type="radio" id="bebida5" name="bebida" value="gaseosa"
           onclick="sumarcomida(this.id,this.name,this.value)">
         <label for="javascript">GASEOSA</label></button>
       </form>
@@ -108,13 +108,13 @@
   </tr>
   <tr>
     <td>
-      <p>Cantidad en (g): <input type="number" id="calorias" onchange="contador(this.value)"></p>
+      <p>Cantidad en (g): <input type="number" id="gramos" onchange="contador(this.value)"></p>
     </td>
     <td>
-      <p>Cantidad en (g): <input type="number" id="calorias2" onchange="contador(this.value)"></p>
+      <p>Cantidad en (g): <input type="number" id="gramos1" onchange="contador2(this.value)"></p>
     </td>
     <td>
-      <p>Cantidad en (ml):<input type="number" id="calorias3" onchange="contador(this.value)"></p>
+      <p>Cantidad en (ml):<input type="number" id="mililitros" onchange="contador3(this.value)"></p>
     </td>
   </tr>
 </table>
@@ -125,18 +125,10 @@
     <tr>
       <th>CALORIAS</th>
       <th>PROTEINAS</th>
-      <th>GRASA</th>
-      <th>CARBOHIDRATOS</th>
-      <th>FIBRA</th>
-      <th>COLESTEROL</th>
     </tr>
     <tr>
-      <td><button type="button" class="boton_resultado"><p>0 Kcal</p></button></td>
-      <td><button type="button" class="boton_resultado"><p>0 g</p></td>
-      <td><button type="button" class="boton_resultado"><p>0 g</p></td>
-      <td><button type="button" class="boton_resultado"><p>0 g</p></td>
-      <td><button type="button" class="boton_resultado"><p>0 g</p></td>
-      <td><button type="button" class="boton_resultado"><p>0 mg</p></td>
+      <td><button type="button" class="boton_resultado" id="resultado_calorias"><p>0 Kcal</p></button></td>
+      <td><button type="button" class="boton_resultado" id="resultado_proteinas"><p>0 g</p></td>
     </tr>
   </table>
 </div>
